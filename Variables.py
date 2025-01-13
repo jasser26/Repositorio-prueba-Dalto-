@@ -1,6 +1,16 @@
-a=3
-b=4
-c=8
-d=a+b+c
+#Definiendo la variable
+nombre= "Jasser"
 
-print(d)
+#Concatenar con +
+
+bienvenida = "Hola" + nombre+ "Como estas?"
+
+#Concatenar con f string
+bienvenida = f"Hola {nombre} Como estas?"
+
+#Operadores de pertenencia In y Not In
+
+print("Jasser" in bienvenida)#True
+print("Jasser" not in bienvenida)#Flase
+
+
